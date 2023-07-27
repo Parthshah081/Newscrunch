@@ -1,0 +1,57 @@
+.my-scroll{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    overflow-y: auto;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: blue;
+}
+::-webkit-scrollbar{
+    width: 1rem;
+}
+::-webkit-scrollbar-track{
+    background-color: var(--white);
+}
+::-webkit-scrollbar-thumb{
+    background-color: blue;
+    border-radius: 10px;
+    border: 5px solid transparent;
+    background-clip: content-box;
+}
+.my-navBar{
+    background-color:skyblue ;
+}
+.icon{
+    font-weight: 700;
+    border-radius: 10%;
+    background: rgb(53,161,176);
+background: linear-gradient(0deg, rgba(53,161,176,1) 30%, rgba(121,105,222,1) 54%, rgba(253,187,45,0.7209734235491072) 100%);
+}
+
+/* ::-webkit-scrollbar{
+    width: 30px;
+}
+::-webkit-scrollbar-track{
+    background-color: var(--black);
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(53,161,176);
+} */
+.sport:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
